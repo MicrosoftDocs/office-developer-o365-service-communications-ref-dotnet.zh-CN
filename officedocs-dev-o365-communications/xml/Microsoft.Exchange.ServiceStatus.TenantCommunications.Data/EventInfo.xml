@@ -1,0 +1,92 @@
+<Type Name="EventInfo" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfo">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4a1e54db469eeb928b63be36dd55d24ab7a5974a" />
+    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20621331" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class EventInfo : Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EventInfo extends Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Class EventInfo&#xA;Inherits EventInfoBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EventInfo : Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::EventInfoBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.DataContract</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="bdffd-101">提供事件信息。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bdffd-101">Provides the event information.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EventInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EventInfo();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Events">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event[] Events { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event[] Events" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfo.Events" />
+      <MemberSignature Language="VB.NET" Value="Public Property Events As Event()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::Event ^&gt; ^ Events { cli::array &lt;Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::Event ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::Event ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bdffd-102">提供事件 （服务事件，计划维护消息中心消息） 的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdffd-102">Provides a list of events (Service Incidents, Planned Maintenance, Message Center messages).</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="bdffd-103">
+            <see cref="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />[]</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdffd-103"></span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

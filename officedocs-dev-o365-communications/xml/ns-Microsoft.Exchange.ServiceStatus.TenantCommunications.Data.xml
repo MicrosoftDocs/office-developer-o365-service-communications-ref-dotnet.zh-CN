@@ -1,0 +1,14 @@
+<Namespace Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0051113538460faecf20973a5e098c27167894bd" />
+    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20621333" />
+  </Metadata>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Namespace>

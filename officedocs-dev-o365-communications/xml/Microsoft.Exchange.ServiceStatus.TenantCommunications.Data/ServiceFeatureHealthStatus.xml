@@ -1,0 +1,148 @@
+<Type Name="ServiceFeatureHealthStatus" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceFeatureHealthStatus">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="98c06436fc61a5215e812dd3512f46fc7b3ee4f6" />
+    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20621317" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ServiceFeatureHealthStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ServiceFeatureHealthStatus extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceFeatureHealthStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServiceFeatureHealthStatus" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ServiceFeatureHealthStatus" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.DataContract</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="f1eff-101">表示 Office 365 服务功能的运行状况状态。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f1eff-101">Represents health status for an Office 365 service feature.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServiceFeatureHealthStatus ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceFeatureHealthStatus.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ServiceFeatureHealthStatus();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FeatureName">
+      <MemberSignature Language="C#" Value="public string FeatureName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FeatureName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceFeatureHealthStatus.FeatureName" />
+      <MemberSignature Language="VB.NET" Value="Public Property FeatureName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FeatureName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f1eff-102">提供的功能的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f1eff-102">Provides the name of the feature.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f1eff-103">&lt;<a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f1eff-103">&lt;<a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a></span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalName">
+      <MemberSignature Language="C#" Value="public string InternalName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InternalName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceFeatureHealthStatus.InternalName" />
+      <MemberSignature Language="VB.NET" Value="Public Property InternalName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InternalName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus Status { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus Status" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceFeatureHealthStatus.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Property Status As ServiceStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::ServiceStatus Status { Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::ServiceStatus get(); void set(Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::ServiceStatus value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f1eff-104">提供用于查询的功能的当前运行状况状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f1eff-104">Provides current health status for the queried feature(s).</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
