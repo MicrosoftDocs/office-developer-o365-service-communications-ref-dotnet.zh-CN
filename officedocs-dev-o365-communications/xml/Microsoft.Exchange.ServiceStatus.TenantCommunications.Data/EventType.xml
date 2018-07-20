@@ -1,0 +1,108 @@
+<Type Name="EventType" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fc7eaf55036abf661f725a4ef79b153a70ae903d" />
+    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20621309" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum EventType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EventType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum EventType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class EventType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.DataContract</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>指定事件类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Incident">
+      <MemberSignature Language="C#" Value="Incident" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType Incident = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType.Incident" />
+      <MemberSignature Language="VB.NET" Value="Incident" />
+      <MemberSignature Language="C++ CLI" Value="Incident" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>事件 (0)</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageCenterMessage">
+      <MemberSignature Language="C#" Value="MessageCenterMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType MessageCenterMessage = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType.MessageCenterMessage" />
+      <MemberSignature Language="VB.NET" Value="MessageCenterMessage" />
+      <MemberSignature Language="C++ CLI" Value="MessageCenterMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PlannedMaintenance">
+      <MemberSignature Language="C#" Value="PlannedMaintenance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType PlannedMaintenance = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType.PlannedMaintenance" />
+      <MemberSignature Language="VB.NET" Value="PlannedMaintenance" />
+      <MemberSignature Language="C++ CLI" Value="PlannedMaintenance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>计划内的维护 (1)</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
